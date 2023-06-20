@@ -1,0 +1,115 @@
+body{
+    background-color: #333633;
+    background-image: url(wave2.svg),url(wavvee.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom,top;
+}
+
+body span {
+    color: yellow;
+}
+.img{
+     margin-left: 64%;
+}
+h1 {
+    margin-left: 5%;
+    color: white;
+}
+
+h1 span{
+    
+    color: green;
+}
+body h2{
+  
+    position: absolute;
+    margin-left: 13%;
+    margin-top: 5%;
+    font-size: 60px;
+    color: wheat;
+  
+}
+
+
+.nav ul {
+    float: right;
+    margin-right: 2%;
+    display: flex;
+    padding:1%;
+    display:absolute;
+    border-radius: 50px;
+    line-height: 20px;
+    
+          
+}
+.nav ul li {
+    
+   
+    display: flex;
+    float: left;
+    margin-left: 20px;
+    margin-top: -90px;
+    
+    
+
+}
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: simsun;
+
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    padding-bottom: 50px; 
+    font-weight: 500;
+    padding: 10px;
+    margin-bottom: auto;
+    border-radius: 85px;
+    background: linear-gradient(145deg, #b9a57e, #9c8b6a);
+    box-shadow:  7px 7px 14px #938364,
+                 -7px -7px 14px #c7b188;
+}
+.nav ul li a:hover {
+    border-radius: 85px;
+    background: #ad9a76;
+    box-shadow: inset 7px 7px 14px #938364,
+                inset -7px -7px 14px #c7b188;
+}
+h5{
+    position: absolute;
+    margin-top: 11%;
+    margin-left: 25%;
+    font-size: 15px;
+}
+.word p{
+  
+    margin-left: 4%; 
+    position: absolute;
+    top: 47%;
+    color: wheat;
+    padding: 2%;
+     word-spacing: 2px;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 16px;
+    font-family: Ink Free,Arial, Helvetica, sans-serif;
+    border-radius: 50px;
+background: linear-gradient(145deg, #373a37, #2e312e);
+box-shadow:  8px 8px 16px #1e1f1e,
+             -8px -8px 16px #484d48;  
+}
+.word p:hover{
+    border-radius: 50px;
+background: #333633;
+box-shadow: inset 8px 8px 16px #1e1f1e,
+            inset -8px -8px 16px #484d48;
+}
+footer {
+    margin-top: 14.5%;
+    text-align: center;
+    background: linear-gradient(to top,rgb(0,0,0,0.5),rgb(0,0,0,0.1));
+    color: white;
+}
